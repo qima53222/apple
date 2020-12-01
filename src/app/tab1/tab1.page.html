@@ -1,17 +1,32 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Boulder Apple Tree
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  <!-- Inputs with labels -->
+
+  <ion-item>
+    <ion-label position="floating">Email Address</ion-label>
+    <ion-input></ion-input>
+    <!-- Save process code here -->
+  </ion-item>
+
+  <!-- Login & Register -->
+  <ion-button href="tabs/tab2" expand="block">Login</ion-button>
+  <ion-button href="tabs/tab3" color="warning" expand="block">New User</ion-button>
+
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Boulder Apple Tree</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-text color="Brown" >
+  <h1>Welcome to Boulder Apple Tree</h1>
+  </ion-text>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
